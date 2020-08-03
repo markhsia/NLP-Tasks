@@ -14,7 +14,17 @@
 ![01](images/01.jpg)  
 雖然此範例為英文文章分類，若要做中文分類，只要下載中文的model即可。[2][3]  
 
+### 02 BERT_QA.ipynb
+此範例說明如何使用transformer的pre-trained BERT model來做question answering。[4]  
+輸入文章和問題即可得到答案。  
+
+### 03 BERT_QA_Chinese.ipynb
+此範例說明如何使用中文的pre-trained BERT model來做question answering。[5]  
+輸入文章和問題即可得到答案。  
+
 ## References
 [1] https://analyticsindiamag.com/step-by-step-guide-to-implement-multi-class-classification-with-bert-tensorflow/  
 [2] https://tfhub.dev/s?network-architecture=transformer&publisher=google  
 [3] https://tfhub.dev/google/bert_chinese_L-12_H-768_A-12/1  
+[4] https://huggingface.co/transformers/task_summary.html  
+[5] https://github.com/p208p2002/bert-question-answer  
